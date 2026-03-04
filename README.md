@@ -119,4 +119,4 @@ La extensión utiliza una tabla de consulta para convertir caracteres ASCII en p
 ## Autor
 
 - **Desarrollado por:** Jesusninoc
-- **Web:** [https://jesusninoc.com](https://jesusninoc.com)
+- **Web:** [https://www.jesusninoc.com](https://www.jesusninoc.com)
