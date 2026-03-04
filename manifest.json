@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Payload Script Validator",
+  "version": "1.0",
+  "description": "Valida y revisa scripts tipo DuckyScript de forma educativa, sin generar binarios.",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["storage", "downloads"]
+}

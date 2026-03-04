@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body { width: 350px; background: #1a1a1a; color: #00ff00; font-family: 'Courier New', monospace; padding: 15px; }
+    h3 { border-bottom: 1px solid #333; padding-bottom: 10px; color: #fff; }
+    textarea { 
+      width: 100%; height: 200px; background: #000; color: #00ff00; 
+      border: 1px solid #333; border-radius: 4px; padding: 10px; box-sizing: border-box;
+      resize: none; font-size: 12px;
+    }
+    button { 
+      width: 100%; padding: 12px; background: #ff4500; color: white; 
+      border: none; border-radius: 4px; cursor: pointer; font-weight: bold; margin-top: 10px;
+    }
+    button:hover { background: #e63e00; }
+    #status { margin-top: 10px; font-size: 11px; color: #888; text-align: center; }
+  </style>
+</head>
+<body>
+  ### PAYLOAD STUDIO LITE
+  <textarea id="code" placeholder="STRING Hello World&#10;ENTER..."></textarea>
+  <button id="compileBtn">COMPILAR A .BIN</button>
+  <div id="status">Listo para compilar.</div>
+
+  <script src="validator.js"></script>
+</body>
+</html>
